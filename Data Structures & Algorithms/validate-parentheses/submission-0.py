@@ -17,6 +17,7 @@ class Solution:
 
                 if top!=mapping[ch]:
                     return False
+
             else:
                 stack.append(ch)
         return not stack
